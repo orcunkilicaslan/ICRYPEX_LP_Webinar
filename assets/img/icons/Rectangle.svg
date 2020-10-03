@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="56" viewBox="0 0 40 56">
+    <defs>
+        <style>
+            .cls-1{fill:#b10c10;stroke:rgba(1,19,38,.5);stroke-width:3px}.cls-2{stroke:none}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="Rectangle" class="cls-1" transform="translate(3 3)">
+        <rect width="34" height="50" class="cls-2" rx="3"/>
+        <rect width="37" height="53" x="-1.5" y="-1.5" class="cls-3" rx="4.5"/>
+    </g>
+</svg>

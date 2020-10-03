@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:#fff}.cls-1{opacity:.2}.cls-2{fill:#e7094a}
+        </style>
+    </defs>
+    <g id="Icon_Mpay" transform="translate(-634.945 -197.138)">
+        <circle id="Ellipse" cx="19.5" cy="19.5" r="19.5" class="cls-1" transform="translate(634.945 197.138)"/>
+        <circle id="Ellipse-2" cx="17.5" cy="17.5" r="17.5" class="cls-2" data-name="Ellipse" transform="translate(636.945 199.138)"/>
+        <path id="Path" d="M326.216 207.93v13.417a1.912 1.912 0 0 1-1.9 1.917 1.912 1.912 0 0 1-1.9-1.917V207.93a1.912 1.912 0 0 1 1.9-1.917 1.912 1.912 0 0 1 1.9 1.917zm-7.583-4.792a1.912 1.912 0 0 0-1.9 1.917v4.792h-1.9a1.917 1.917 0 0 0 0 3.833h1.9v4.792a1.9 1.9 0 1 0 3.792 0v-13.417a1.912 1.912 0 0 0-1.892-1.917zm15.167 6.708h-1.9v-4.792a1.9 1.9 0 1 0-3.792 0v13.417a1.9 1.9 0 1 0 3.792 0v-4.791h1.9a1.917 1.917 0 0 0 0-3.833z" class="cls-3" transform="translate(330.125 4.75)"/>
+    </g>
+</svg>

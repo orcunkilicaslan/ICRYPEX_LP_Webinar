@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.75" height="30.5" viewBox="0 0 42.75 30.5">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-5{fill:none}.cls-1,.cls-2{stroke:#758ca3;stroke-width:1.5px}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linejoin:round}.cls-3{fill:#758ca3}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Icon_Digital_Wallet" transform="translate(-3.25 -5.25)">
+        <g id="Path" transform="translate(4 6)">
+            <path id="Path-2" d="M42 15.728V8.289A2.34 2.34 0 0 0 39.625 6H6.375A2.34 2.34 0 0 0 4 8.289v24.422A2.34 2.34 0 0 0 6.375 35h33.25A2.34 2.34 0 0 0 42 32.711v-8.6" class="cls-1" data-name="Path" transform="translate(-4 -6)"/>
+            <g id="Path-3" class="cls-1" data-name="Path">
+                <path d="M4.941 0h10.706a2.471 2.471 0 0 1 2.471 2.471v4.941a2.471 2.471 0 0 1-2.471 2.471H4.941A4.941 4.941 0 0 1 0 4.941 4.941 4.941 0 0 1 4.941 0z" class="cls-4" transform="translate(23.883 9.707)"/>
+                <path d="M4.941.75h10.63a1.8 1.8 0 0 1 1.8 1.8v4.79a1.8 1.8 0 0 1-1.8 1.8H4.941A4.191 4.191 0 0 1 .75 4.941 4.191 4.191 0 0 1 4.941.75z" class="cls-5" transform="translate(23.883 9.707)"/>
+            </g>
+            <path id="Path-4" d="M0 0h12" class="cls-1" data-name="Path" transform="translate(.5 5.5)"/>
+            <path id="Path-5" d="M0 0v4" class="cls-1" data-name="Path" transform="translate(18.5 -.5)"/>
+            <path id="Path-6" d="M0 0v6" class="cls-1" data-name="Path" transform="translate(23.5 .5)"/>
+            <path id="Path-7" d="M39.676 6.219v6h4" class="cls-2" data-name="Path" transform="translate(-11.176 -6.719)"/>
+            <path id="Path-8" d="M0 0h17" class="cls-1" data-name="Path" transform="translate(.5 11.5)"/>
+            <path id="Path-9" d="M0 0h12" class="cls-1" data-name="Path" transform="translate(.5 23.5)"/>
+            <path id="Path-10" d="M0 4V0" class="cls-1" data-name="Path" transform="translate(18.5 25.5)"/>
+            <path id="Path-11" d="M0 6V0" class="cls-1" data-name="Path" transform="translate(23.5 23.5)"/>
+            <path id="Path-12" d="M40 42.359v-6h4" class="cls-2" data-name="Path" transform="translate(-10.5 -12.859)"/>
+            <path id="Path-13" d="M0 0h17" class="cls-1" data-name="Path" transform="translate(.5 17.5)"/>
+        </g>
+        <g id="Circle" transform="translate(15.529 10.118)">
+            <circle id="Circle-2" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(-1.529 -.118)"/>
+            <circle id="Circle-3" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(5.471 5.882)"/>
+            <circle id="Circle-4" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(5.471 -1.118)"/>
+            <circle id="Circle-5" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(10.471 1.882)"/>
+            <circle id="Circle-6" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(19.764 -.176)"/>
+            <circle id="Circle-7" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(-1.529 17.882)"/>
+            <circle id="Circle-8" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(5.471 11.882)"/>
+            <circle id="Circle-9" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(5.471 18.882)"/>
+            <circle id="Circle-10" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(10.471 16.882)"/>
+            <circle id="Circle-11" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(20.471 17.882)"/>
+            <circle id="Circle-12" cx="1.5" cy="1.5" r="1.5" class="cls-3" data-name="Circle" transform="translate(15.647 8.882)"/>
+        </g>
+    </g>
+</svg>
