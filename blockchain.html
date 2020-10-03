@@ -1,0 +1,506 @@
+<!doctype html>
+<html>
+<head>
+	<title>ICRYPEX</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="icon" href="assets/img/icons/favicon.ico" sizes="16x16" />
+	<link rel="icon" href="assets/img/icons/favicon.ico" sizes="32x32" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<link rel="stylesheet" href="assets/dist/css/core.min.css">
+</head>
+<body>
+
+<header class="container-fluid">
+	<div class="container d-flex justify-content-center">
+		<div class="logoarea">
+			<div class="logoarea-cell">
+				<a href="https://www.icrypex.com/" title="ICRYPEX" rel="bookmark" target="_blank"><img src="assets/img/icrypex-logo.svg" alt="" class="logo"></a>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="banner-wrapper">
+	<div class="container-fluid banner blockchain">
+		<div class="container h-100 flex-column d-flex justify-content-center align-items-center">
+			<div class="eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".1s">
+				<h1>ÜCRETSİZ KRİPTO PARA <br />BLOCKCHAIN EĞİTİMİNE DAVETLİSİNİZ</h1>
+				<h2><strong>KEMAL KABAKCI</strong> İLE KRİPTO PARALARIN SIRLARINI ÖĞRENİN!</h2>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="container-fluid form-wrapper">
+	<div class="container">
+		<!-- Alert -->
+		<div class="alertset d-none">
+			<div class="alert alert-big alert-sweet alert-sweet-small alert-success alert-dismissible fade show" role="alert">
+				<div class="alert-flex">
+					<div class="alert-icon">
+						<div class="alert-icon-success">
+							<div class="alert-icon-success-tip"></div>
+							<div class="alert-icon-success-long"></div>
+							<div class="alert-icon-success-placeholder"></div>
+							<div class="alert-icon-success-fix"></div>
+						</div>
+					</div>
+					<div class="alert-big-desc">
+						<h4 class="alert-heading">Well done!</h4>
+						<p>Aww yeah, you successfully read this important alert message.</p>
+					</div>
+				</div>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="alert alert-big alert-sweet alert-sweet-small alert-warning alert-dismissible fade show" role="alert">
+				<div class="alert-flex">
+					<div class="alert-icon">
+						<div class="alert-icon-warning">
+							<div class="alert-icon-warning-body"></div>
+							<div class="alert-icon-warning-dot"></div>
+						</div>
+					</div>
+					<div class="alert-big-desc">
+						<h4 class="alert-heading">Warning!</h4>
+						<p>Aww yeah, you successfully read this important alert message.</p>
+					</div>
+				</div>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		</div>
+		<!-- Alert -->
+		<form action="" autocomplete="off" onsubmit="return submitValidForm()" novalidate>
+			<h2>EĞİTİME KATILMAK İÇİN HEMEN FORMU DOLDURUN! <span id="countdown2"></span></h2>
+			<div class="d-flex inputs justify-content-center mt-2 mx-auto flex-column flex-lg-row">
+				<div id="iconFirstNameId" class="">
+					<input type="text" class="form-control" placeholder="İSİM" name="firstname" id="inputFirstNameId" required oninput="lpregisterform.verifyContent('inputFirstNameProcess','inputFirstNameId','msgFirstNameId','iconFirstNameId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputFirstNameProcess','inputFirstNameId','msgFirstNameId','iconFirstNameId')">
+					<span class="inputerrormessage" id="msgFirstNameId"></span>
+				</div>
+				<div id="iconLastNameId" class="">
+					<input type="text" class="form-control" placeholder="SOYİSİM" name="lastname" id="inputLastNameId" required oninput="lpregisterform.verifyContent('inputLastNameProcess','inputLastNameId','msgLastNameId','iconLastNameId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputLastNameProcess','inputLastNameId','msgLastNameId','iconLastNameId')">
+					<span class="inputerrormessage" id="msgLastNameId"></span>
+				</div>
+				<div id="iconPhoneId" class="">
+					<input type="text" class="form-control inputphonemask" placeholder="TELEFON" name="phone" id="inputPhoneId" required oninput="lpregisterform.verifyContent('inputPhoneProcess','inputPhoneId','msgPhoneId','iconPhoneId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputPhoneProcess','inputPhoneId','msgPhoneId','iconPhoneId')">
+					<span class="inputerrormessage" id="msgPhoneId"></span>
+				</div>
+				<div id="iconEmailId" class="">
+					<input type="text" class="form-control" placeholder="E-POSTA" name="email" id="inputEmailId" required oninput="lpregisterform.verifyContent('inputEmailProcess','inputEmailId','msgEmailId','iconEmailId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputEmailProcess','inputEmailId','msgEmailId','iconEmailId')">
+					<span class="inputerrormessage" id="msgEmailId"></span>
+				</div>
+			</div>
+			<div class="d-lg-none d-flex justify-content-center mt-2 ml-0 checkbox-wrapper flex-column flex-lg-row">
+				<div class="checkboxline">
+					<div class="recaptcha-area d-flex">
+						<div class="recaptcha-check">
+							<div class="g-recaptcha" data-theme="dark" data-sitekey="6LewOKAUAAAAAMDO2yohWeyDcjFAHfcuEqK2mIp4"></div>
+						</div>
+						<span>Ben rabot değilim</span>
+					</div>
+				</div>
+				<div class="checkboxline ml-lg-4 ml-0 mt-2 mt-lg-0">
+					<div id="iconUseTermCheckId" class="squaredFour">
+						<input type="checkbox" value="None" id="check1" name="check" />
+						<label id="labeltermsOfUseCheck" for="check1"><span><a href="https://www.icrypex.com/company/legal/terms" target="_blank"><u>Kullanım Sözleşmesini</u></a>&nbsp;okudum, onaylıyorum.</span></label>
+						<span class="inputerrormessage" id="msgUseTermCheckId"></span>
+					</div>
+				</div>
+				<div class="checkboxline ml-lg-4 ml-0 mt-2 mt-lg-0 d-none">
+					<div class="squaredFour">
+						<input type="checkbox" value="None" id="check2" name="check" checked />
+						<label for="check2"><span>Gelişmelerden ve duyurulardan haberdar olmak istiyorum.</span></label>
+					</div>
+				</div>
+				<div class="checkboxline ml-lg-4 ml-0 mt-2 mt-lg-0">
+					<div class="squaredFour">
+						<p class="desc"><a href="#" class="urllink clickform" data-toggle="modal" data-target="#CekilisSartModal"><u>Çekiliş şartlarını</u></a>&nbsp;okumak&nbsp;için tıklayınız.</p>
+					</div>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-danger" onclick=''>EĞİTİME KATIL</button>
+		</form>
+	</div>
+</section>
+
+<script type="text/javascript">
+
+	function verifyValidFirstName() {
+		if(document.getElementById('inputFirstNameId').value.length < 2){
+			document.getElementById('iconFirstNameId').classList.add("error");
+			document.getElementById('iconFirstNameId').classList.remove("check");
+			document.getElementById('msgFirstNameId').innerText = "EN AZ 2 KARAKTER";
+
+			return false;
+		} else {
+			document.getElementById('iconFirstNameId').classList.add("check");
+			document.getElementById('iconFirstNameId').classList.remove("error");
+			document.getElementById('msgFirstNameId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidLastName() {
+		if(document.getElementById('inputLastNameId').value.length < 2){
+			document.getElementById('iconLastNameId').classList.add("error");
+			document.getElementById('iconLastNameId').classList.remove("check");
+			document.getElementById('msgLastNameId').innerText = "EN AZ 2 KARAKTER";
+
+			return false;
+		} else {
+			document.getElementById('iconLastNameId').classList.add("check");
+			document.getElementById('iconLastNameId').classList.remove("error");
+			document.getElementById('msgLastNameId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidPhone() {
+		if(document.getElementById('inputPhoneId').value.replace(/\s/g, "").length < 11){
+			document.getElementById('iconPhoneId').classList.add("error");
+			document.getElementById('iconPhoneId').classList.remove("check");
+			document.getElementById('msgPhoneId').innerText = "HATALI TELEFON";
+
+			return false;
+		} else {
+			document.getElementById('iconPhoneId').classList.add("check");
+			document.getElementById('iconPhoneId').classList.remove("error");
+			document.getElementById('msgPhoneId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidEmail() {
+		var emailPattern	= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;
+
+		if(!document.getElementById('inputEmailId').value.match(emailPattern)){
+			document.getElementById('iconEmailId').classList.add("error");
+			document.getElementById('iconEmailId').classList.remove("check");
+			document.getElementById('msgEmailId').innerText = "HATALI E-POSTA";
+
+			return false;
+		} else {
+			document.getElementById('iconEmailId').classList.add("check");
+			document.getElementById('iconEmailId').classList.remove("error");
+			document.getElementById('msgEmailId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidTermsOfUse() {
+		var termsOfUseCheck	= document.getElementById('check1').checked;
+
+		if(!termsOfUseCheck){
+			document.getElementById('labeltermsOfUseCheck').classList.add("error");
+			document.getElementById('labeltermsOfUseCheck').classList.remove("check");
+
+			return false;
+		} else {
+			document.getElementById('labeltermsOfUseCheck').classList.add("check");
+			document.getElementById('labeltermsOfUseCheck').classList.remove("error");
+
+			return true;
+		}
+		return true;
+	}
+
+	function submitValidForm() {
+		if (!verifyValidFirstName() || !verifyValidLastName() || !verifyValidPhone() || !verifyValidEmail() || !verifyValidTermsOfUse()){
+			console.log("HATA");
+			return false;
+		} else {
+			console.log("DOGRU");
+		}
+	}
+
+</script>
+
+<div class="wrapper">
+
+	<div class="webinar">
+		<div class="container">
+			<div class="row">
+
+				<div class="webinar-cont col-lg">
+					<div class="contentbox">
+						<div class="contentbox-title">
+							<h3>Krİpto Paralar VE BLOCKCHAIN</h3>
+						</div>
+						<div class="contentbox-box">
+							<div class="sitecontent">
+								<p>Kemal Kabakcı ile kripto paraların ortaya çıkışı ve kullanım alanlarını, blockchain teknolojisini tanıyın. Kripto para alım satım stratejilerinin püf noktalarını öğrenin.</p>
+								<h4>1. BÖLÜM: BlockchaIn ve Krİpto Paraları Tanıyalım</h4>
+								<ul>
+									<li>Kriptoloji Nedir?</li>
+									<li>Kripto Paralar nasıl ortaya çıktı?</li>
+									<li>Satoshi Nakamoto ve White Paper</li>
+									<li>Kripto para alım - satımı yaparken bilinmesi gereken terimler</li>
+									<li>Kripto Para Türleri</li>
+									<li>Madencilik (Mining)</li>
+								</ul>
+								<h4>2. BÖLÜM : Krİpto Paralarda İndİkatörler İle alım satım</h4>
+								<ul>
+									<li>Blokzincir teknolojisi ve blokzincirde güvenlik</li>
+									<li>Yatırım getirisi (ROI)</li>
+									<li>Tüm zamanların en yüksek ve en düşük değeri (ATH, ATL)</li>
+									<li>Kripto para borsalarında nasıl işlem yapılır?</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="webinar-side col-lg-auto">
+					<div class="contentbox">
+						<div class="contentbox-title">
+							<h3>EĞİTİM TARİHLERİ</h3>
+						</div>
+						<div class="contentbox-box">
+							<ul class="webinarlist">
+								<li>
+									<div class="webinarlist-date">
+										<div class="coldate">05 EKİM 2020</div>
+										<div class="colhour">19:00</div>
+									</div>
+									<div class="webinarlist-info">
+										<div class="colinfo">
+											<span>KONTENJAN</span>
+											<strong>25</strong>
+										</div>
+										<div class="colinfo">
+											<span>EĞİTİM SÜRESİ</span>
+											<strong>45 dk.</strong>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="webinarlist-date">
+										<div class="coldate">08 EKİM 2020</div>
+										<div class="colhour">19:00</div>
+									</div>
+									<div class="webinarlist-info">
+										<div class="colinfo">
+											<span>KONTENJAN</span>
+											<strong>25</strong>
+										</div>
+										<div class="colinfo">
+											<span>EĞİTİM SÜRESİ</span>
+											<strong>45 dk.</strong>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<section class="container-fluid why-icrypex pt-0">
+		<span class="bg parallax-top" data-parallax="4"></span>
+		<div class="container egitmenarea">
+			<div class="row">
+				<div class="avatar col-lg-auto">
+					<img src="assets/img/webinar_kemalkabakci.jpg" alt="" class="eff bounceIn" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="270">
+				</div>
+				<div class="right eff fadeInRight col-lg" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="250">
+					<h4 class="mt-xl-0">KEMAL KABAKCI</h4>
+					<h5>ICRYPEX RETENTION TAKIM LİDERİ</h5>
+					<p>2015 yılında Marmara Üniversitesi Sermaye Piyasası bölümünde lisans eğitimini tamamladıktan sonra aynı yıl finans sektöründe Satış ve Pazarlama departmanında Türev Araçlar (FX, VİOP) Müşteri Temsilcisi olarak göreve başlayan Kemal Kabakcı, sonraki süreçte Aracı Kurumların Retention ekiplerinde görev almaya devam etti. Kabakcı şu an Icrypex’te Retention Takım Lideri olarak çalışmaktadır.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2 class="text-center bt-center border-bt text-white mt-xl-9 mt-8"><b>NEDEN ICRYPEX</b> CRYPTO EXCHANGE?</h2>
+			<p class="text-center mt-3">Icrypex Kripto Borsası, tüm kariyerini vadeli ișlemler, para ve döviz piyasaları, sabit getirili ürünler ve dijital paralar gibi finansal ürünlere ayırmış finans profesyonelleri tarafından kurulmuștur. Icrypex; șeffaf, doğru, hızlı ve düșük komisyon prensipleri ile yola çıktı ve size gerçek bir blokzinciri tecrübesi sunuyor.</p>
+			<div class="row mt-4">
+				<div class="offset-lg-1 col-lg-5 col-right">
+					<div class="d-flex items fadeInLeft eff flex-row-reverse flex-lg-row" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+						<div class="content">
+							<h4 class="border-bt ht2">HIZLI PLATFORM</h4>
+							<p>Borsalarda hız en önemli unsurdur. Icrypex platformunda milisaniyeler içerisinde emriniz işleme girer, limit emirleriniz uygun fiyat ile buluştuğunda gerçekleşir. Saniyeler içerisinde para yatırıp, çekebilirsiniz.</p>
+						</div>
+						<div class="iconwrap ml-lg-3 mr-lg-0 mr-3">
+							<img src="https://www.icrypex.com/asset-lp/trade_and_win/img/icons/Speed_Icon.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 mt-lg-0 mt-4">
+					<div class="d-flex items fadeInRight eff" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+						<div class="iconwrap mr-3">
+							<img src="https://www.icrypex.com/asset-lp/trade_and_win/img/icons/Freeze_Icon.svg" alt="">
+						</div>
+						<div class="content">
+							<h4 class="border-bt ht2">SOĞUK CÜZDAN</h4>
+							<p>Kripto varlıklarınız, fiziksel olarak izole edilmiş, çevrimdışı, ağa bağlı olmayan cüzdanlarda muhafaza edilir. Bu soğuk depolar, varlıklarınızı güvenle saklayabilecek fiziki zorlu çevresel koşullara dayanır ve siber risk barındırmaz.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="offset-lg-1 col-lg-5 col-right">
+					<div class="d-flex items fadeInLeft eff flex-row-reverse flex-lg-row" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+						<div class="content">
+							<h4 class="border-bt ht2">2FA DOĞRULAMA</h4>
+							<p>2 adımlı doğrulama, kişisel veri güvenliğinin son noktalarından biridir. 2FA ile hesabınıza girerken bir güvenlik katmanı daha eklemiş olursunuz. Böylece sadece sizin için oluşturulan doğrulama kodu ile hesabınıza giriş yaparsınız.</p>
+						</div>
+						<div class="iconwrap ml-lg-3 mr-lg-0 mr-3">
+							<img src="https://www.icrypex.com/asset-lp/trade_and_win/img/icons/2FA_Icon.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 mt-lg-0 mt-4">
+					<div class="d-flex items fadeInRight eff" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+						<div class="iconwrap mr-3">
+							<img src="https://www.icrypex.com/asset-lp/trade_and_win/img/icons/Icon_Digital_Wallet.svg" alt="">
+						</div>
+						<div class="content">
+							<h4 class="border-bt ht2">GERÇEK CÜZDAN</h4>
+							<p>Icrypex ile yaptığınız işlemler talebinizle, gerçek çekirdekte yapılır, global blokzincire yansıtılır. Sadece Icrypex üzerinde açtığınız cüzdandaki işlemleri Etherscan veya btc.com üzerinden de takip edebilirsiniz.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="offset-lg-1 items col-lg-5 col-right">
+					<div class="d-flex items fadeInLeft eff flex-row-reverse flex-lg-row" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+						<div class="content">
+							<h4 class="border-bt ht2">SEGWIT</h4>
+							<p>İşlem boyutlarını küçülterek, işlem hızını ve sınırlı blok büyüklüğünü en verimli şekilde kullanan bir teknoloji sunuyoruz. Böylece kripto para transferleriniz göz açıp kapayıncaya kadar gerçekleşmiş oluyor.</p>
+						</div>
+						<div class="iconwrap ml-lg-3 mr-lg-0 mr-3">
+							<img src="https://www.icrypex.com/asset-lp/trade_and_win/img/icons/Segwit_Icon.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 mt-lg-0 mt-4">
+					<div class="d-flex items fadeInRight eff" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+						<div class="iconwrap mr-3">
+							<img src="https://www.icrypex.com/asset-lp/trade_and_win/img/icons/Deep Icon.svg" alt="">
+						</div>
+						<div class="content">
+							<h4 class="border-bt ht2">YÜKSEK DERİNLİK</h4>
+							<p>Icrypex size 7 para birimi ile 14 markette derinlikli bir borsa hizmeti sunar. Teorik olarak bu, aynı anda 14 farklı markete erişebildiğiniz anlamına gelir. Her birinde istediğiniz an işleme girip çıkabillirsiniz.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="start-investment">
+		<footer class="container-fluid">
+			<div class="bottom">
+				<span></span>
+			</div>
+			<div class="social-media mt-6 d-flex justify-content-center">
+				<a class="fc" href="https://facebook.com/icrypex/" target="_blank"></a>
+				<a class="tw" href="https://twitter.com/icrypex" target="_blank"></a>
+				<a class="ins" href="https://www.instagram.com/icrypex/" target="_blank"></a>
+				<a class="mdm" href="https://medium.com/@icrypex" target="_blank"></a>
+				<a class="ln" href="https://www.linkedin.com/company/icrypex-crypto-exchange/" target="_blank"></a>
+				<a class="tlgrm" href="https://t.me/icrypex_tr" target="_blank"></a>
+			</div>
+			<div class="text-center px-3">
+				<h3 class="font-weight-normal mt-5"><a href="tel:0850 255 1079" class="text-white">0850 255 1079</a></h3>
+				<p class="secr">Tüm Hakları Saklıdır © 2018-2019 Icrypex Crypto Exchange <br>Icrypex Bilişim A.Ş. Maslak Mah. Maslak Meydan Sok. Spring Giz Plaza N:5/57 Sarıyer/İstanbul</p>
+			</div>
+			<div class="banks mt-6">
+				<div class="middle d-flex justify-content-center flex-wrap flex-md-nowrap">
+					<div>
+						<img src="assets/img/icons/Akbank_Logo.svg" alt="">
+					</div>
+					<div>
+						<img src="assets/img/icons/Ziraat_Logo.svg" alt="">
+					</div>
+					<div>
+						<img src="assets/img/icons/Odeabank_Logo.svg" alt="">
+					</div>
+					<div>
+						<img src="assets/img/icons/Vakifbank_Logo.svg" alt="">
+					</div>
+					<div>
+						<img src="assets/img/icons/Papara_Logo.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal modalwhite" id="CekilisSartModal">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+			<ul>
+				<li>18 yaşından küçükler çekilişe katılamaz. Katılıp ödül kazanmaları durumunda ödül alamayacaktır.</li>
+				<li>Ödüller 2. bir kişiye aktarılamaz.</li>
+				<li>Kazanan kişilere 1 hafta içerisinde ulaşılamaması durumunda ödül yedek kazananlara iletilecektir. (2 adet yedek kazanan seçilecektir)</li>
+				<li>Bu çekilişe katılarak yukarıdaki şartları ve Icrypex'in kişisel verilerinizi kullanmasını kabul etmiş sayılırsınız.</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+
+<!-- Scripts -->
+<script src="assets/cdn/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="assets/cdn/bootstrap.min.js"></script>
+<script src="assets/cdn/wow.min.js"></script>
+<script src="assets/vendor/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async=""></script>
+<script src="assets/cdn/core.js"></script>
+<script src="assets/dist/js/core.js"></script>
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("October 5, 2020 19:00:00").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+		// Get today's date and time
+		var now = new Date().getTime();
+
+		// Find the distance between now and the count down date
+		var distance = countDownDate - now;
+
+		// Time calculations for days, hours, minutes and seconds
+		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		// Output the result in an element with id="demo"
+		/*document.getElementById("countdown").innerHTML = days + " GÜN " + hours + " SAAT " + minutes + " DAKİKA " + seconds + " SANİYE ";*/
+		document.getElementById("countdown2").innerHTML = "<span>-</span> " + days + " GÜN " + hours + ":" + minutes + ":" + seconds + " SAAT KALDI!";
+
+		// If the count down is over, write some text
+		if (distance < 0) {
+			clearInterval(x);
+			/*document.getElementById("countdown").innerHTML = "SÜRESİ DOLDU";*/
+			document.getElementById("countdown2").innerHTML = "SÜRESİ DOLDU";
+		}
+	}, 1000);
+</script>
+<!-- Scripts -->
+
+</body>
+</html>

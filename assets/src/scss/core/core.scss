@@ -501,7 +501,9 @@ footer{
 		height:auto;
 	}
 	.banner{
-		background:url(#{$mainImgPath}/Big_Crypto_Bg.jpg?v=20200506v2) no-repeat center center #010F1F;
+		background-color: #010F1F;
+		background-repeat: no-repeat;
+		background-position: center center;
 		background-size:cover;
 		height:100vh;
 		min-height:765px;
@@ -524,6 +526,17 @@ footer{
 		@media screen and(max-width: 768px) and (max-height:500px){
 			background-size: 100% 100vh;
 		}
+
+		&.temelanaliz{
+			background-image:url(#{$mainImgPath}/banner/Big_Img_Main_Temel_Analiz.jpg);
+		}
+		&.teknikanaliz{
+			background-image:url(#{$mainImgPath}/banner/Big_Img_Main_Teknik_Analiz.jpg);
+		}
+		&.blockchain{
+			background-image:url(#{$mainImgPath}/banner/Big_Img_Main_Blockchain.jpg);
+		}
+
 		.container{
 			//max-width: 100%;
 			padding-bottom: 210px;
@@ -558,8 +571,8 @@ footer{
 
 		h1{
 			color:#fff;
-			font-size: 3.4vw;
-			line-height: 3.4vw;
+			font-size: 3.2vw;
+			line-height: 3.2vw;
 			font-weight: 500;
 			text-align: center;
 			letter-spacing: -1px;
@@ -572,13 +585,13 @@ footer{
 				line-height: 70px;
 			}
 			@media screen and(max-width:$screenxl){
-				font-size: 76px;
-				line-height: 76px;
+				font-size: 60px;
+				line-height: 60px;
 				letter-spacing: 0;
 			}
 			@media screen and(max-width:$screenlg){
-				font-size: 76px;
-				line-height: 76px;
+				font-size: 50px;
+				line-height: 50px;
 			}
 			@media screen and(max-width:$screenmd){
 				font-size: 46px;
@@ -606,8 +619,8 @@ footer{
 			}
 		}
 		h2{
-			font-size: 2.6vw;
-			line-height: 2.6vw;
+			font-size: 2vw;
+			line-height: 2vw;
 			font-weight: 400;
 			letter-spacing: -0.55px;
 			text-align: center;
@@ -623,9 +636,13 @@ footer{
 				margin-top: 20px;
 			}
 			@media screen and(max-width:$screenxl){
-				font-size: 42px;
-				line-height: 42px;
+				font-size: 40px;
+				line-height: 40px;
 				letter-spacing: 0;
+			}
+			@media screen and(max-width:$screenlg){
+				font-size: 34px;
+				line-height: 34px;
 			}
 			@media screen and(max-width:$screenmd){
 				font-size: 30px;
@@ -643,47 +660,6 @@ footer{
 			}
 			b{
 				font-weight: 600;
-			}
-		}
-		h3{
-			font-size: 1.5vw;
-			line-height: 1.5vw;
-			letter-spacing: -.2px;
-			text-align: center;
-			text-shadow: 0 0 5px #002246;
-			color:#fff;
-			margin-top: .48vw;
-			@media screen and(max-width:1950px){
-				font-size:27px;
-				line-height:29px;
-				margin-top:8px;
-			}
-			@media screen and(max-width:$screenxl){
-				font-size: 24px;
-				line-height: 24px;
-				letter-spacing: 0;
-			}
-			@media screen and(max-width:$screenmd){
-				font-size:20px;
-				margin-top: 6px;
-				//white-space: nowrap;
-			}
-			@media screen and(max-width:400px){
-				font-size:18px;
-			}
-			b{
-				font-weight: 600;
-			}
-			&.text-danger{
-				margin-top: .3vw;
-				font-weight: 700;
-				color:#fff !important;
-				@media screen and(max-width:1950px){
-					margin-top:5px;
-				}
-				@media screen and(max-width:$screenxl){
-					margin-top:2px;
-				}
 			}
 		}
 	}
@@ -707,7 +683,7 @@ footer{
 				line-height:24px;
 				letter-spacing: 0px;
 				#countdown2{
-					font-weight: 700;
+					font-weight: 500;
 					display: inline-block;
 					span{
 						font-weight: 400;
@@ -753,7 +729,7 @@ footer{
 			line-height:24px;
 			letter-spacing: 0px;
 			#countdown2{
-				font-weight: 700;
+				font-weight: 500;
 				display: inline-block !important;
 				span{
 					font-weight: 400;
@@ -938,10 +914,19 @@ footer{
 	background: #fff;
 	padding: 50px 0 70px;
 
+	@media screen and(max-width:$screenmd){
+		padding: 20px 0 70px;
+	}
+
 	&-cont{}
 
 	&-side{
 		min-width: 300px;
+
+		@media screen and(max-width:$screenmd){
+			min-width: auto;
+			padding-top: 30px;
+		}
 	}
 
 	.contentbox{
@@ -954,6 +939,10 @@ footer{
 			padding: 5px 0;
 			border-bottom: 1px solid #cfd7df;
 			position: relative;
+
+			@media screen and(max-width:$screenmd){
+				font-size: 22px;
+			}
 
 			&::before{
 				content: "";
@@ -970,12 +959,20 @@ footer{
 				font-size: 24px;
 				font-weight: 500;
 				text-transform: uppercase;
+
+				@media screen and(max-width:$screenmd){
+					font-size: 22px;
+				}
 			}
 		}
 
 		&-box{
 			padding: 15px 0 15px 15px;
 			border-left: 1px solid #cfd7df;
+
+			@media screen and(max-width:$screenmd){
+				padding: 15px;
+			}
 
 			p{
 				margin: 0 0 10px;
@@ -1072,6 +1069,10 @@ footer{
 					padding-left: 35px;
 					position: relative;
 
+					@media screen and(max-width:$screenmd){
+						font-size: 24px;
+					}
+
 					&::before{
 						content: "";
 						background-repeat: no-repeat;
@@ -1157,7 +1158,6 @@ footer{
 		border-bottom:25px solid #fff;
 
 		@media screen and(max-width:$screenlg){
-			padding-bottom:50px;
 			display:block;
 		}
 
@@ -1193,6 +1193,13 @@ footer{
 			width:280px;
 			margin:-45px 0;
 
+			@media screen and(max-width:$screenmd){
+				width: 100%;
+				margin: -45px 0 0;
+				text-align: center;
+				padding-bottom: 10px;
+			}
+
 			img{
 				width: 250px;
 				height: 250px;
@@ -1201,7 +1208,7 @@ footer{
 			}
 		}
 		.right{
-			@media screen and(max-width:$screenlg){
+			@media screen and(max-width:$screenmd){
 				text-align: center !important;
 			}
 		}
